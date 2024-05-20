@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajuste conforme necessário */
+    background-color: #f8f9fa; /* Cor de fundo do header */
+}
+
+.logo-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    max-width: 300px; /* Ajuste conforme necessário */
+    width: 100%;
+}
+
+.logo img {
+    max-width: 1600px; /* Ajuste conforme necessário */
+    max-height: 900px;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-nav {
+    display: flex;
+    position: absolute;
+    margin-top: 250px;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre os itens do menu */
+    padding: 10 20 20 10;
+    color: #007bff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-nav1{
+    background: transparent;
+    color: rgb(195, 184, 190);
+    padding: 10px 20px;
+    border: 1px solid #06121e;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.btn-nav1:hover {
+    background-color: rgb(226, 223, 214);
+    transform: translateY(-2px);
+}
+
+.btn-nav2{
+    background: transparent;
+    color: rgb(195, 184, 190);
+    padding: 10px 20px;
+    border: 1px solid #06121e;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.btn-nav2:hover {
+    background-color:rgb(226, 223, 214);
+    transform: translateY(-6px);
+}
